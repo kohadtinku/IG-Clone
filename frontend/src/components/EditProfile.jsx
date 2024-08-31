@@ -42,7 +42,7 @@ const EditProfile = () => {
         }
         try {
             setLoading(true);
-            const res = await axios.post('https://ig-clone-55pv.onrender.com/api/v1/user/profile/edit', formData,{
+            const res = await axios.post('https://tsk-instagram.onrender.com/api/v1/user/profile/edit', formData,{
                 headers:{
                     'Content-Type':'multipart/form-data'
                 },
