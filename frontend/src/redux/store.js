@@ -42,9 +42,5 @@ const store = configureStore({
             },
         }),
 });
-// const store = configureStore({
-//     reducer: {
-//         auth:authSlice
-//     }
-// });
+// c
 export default store;

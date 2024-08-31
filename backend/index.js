@@ -16,12 +16,7 @@ const PORT = process.env.PORT || 8000;
 
 const __dirname = path.resolve();
 
-// app.get("/", (req, res) => {
-//   return res.status(200).json({
-//     message: "I am Backend",
-//     success: true,
-//   });
-// });
+
 
 // middleware
 app.use(express.json());
